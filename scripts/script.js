@@ -1,43 +1,57 @@
 console.log("Script");
 
-// Creating String Variables
+// Creating string variables
 //keyword nameVariable = value;
-let myName = "John";
+let myName = "Jane";
 let lastName = "Doe";
 
 console.log(myName);
 console.log(lastName);
-console.log(myName + " " + lastName); //concatenation
+console.log(myName + " " +lastName);//concatenation
 
 //Creating numerical variables
-let myAge = 25;
+let myAge = 99;
 console.log("Age: " + myAge);
 
 let myGrade = 9.5;
-console.log("Grade: " + myGrade);
+console.log(myGrade);
 
-//Creating boolean variables (true/false)
-let isAdmin = true;
-let isStudent = false;
-let isProfessor = true;
+//creating boolean variables (true/false)
+let isAdmin =true;
+let isStudent=false;
+let isProfessor=true;
 console.log(isProfessor);
 
-/*mutiple line comments*/
-//Single Line Comments
+/* many lines of comments 
+*/
 
-myName="Damian";
-lastName="Savage";
-//My name is Damian Savage, and I am 25 years old.
+myName="Samantha";
+lastName="Jimenez";
+//my name is Samantha Jimenez, and I am 99 years old.
+console.log("My name is " + myName + " " + lastName + ", and I am " + myAge + " years old.");
 
 let number1 =10;
-let number2 =5;
+let number2 = 5;
 
 //addition
 let addition = number1 + number2;
-console.log(number1 + " + " number2 + " = " + addition);)
+console.log(number1 + " + " + number2 + " = " + addition);
+//substraction
+let substraction = number1 - number2;
+console.log(number1 + " - " + number2 + " = " + substraction);
+//multiplication
 
-//Prompt is a simple way to interact with the user
+//division
 
-let pet =prompt("Insert Your Pet Name");
-console.log("Your pet is: " + pet);
+//CONSTANTS
+//keyword constName = value;
 
+const pi = 3.1416;
+//pi=4.5; // we can't modify a constant
+console.log(pi);
+// calculate the area of circle
+
+// PROMPT: this is simple way to interact with a user
+
+let pet =prompt("Insert your pet name: ");
+console.log("your pet is: " + pet);
